@@ -1,0 +1,24 @@
+.person-container {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .person-container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .person-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .person-description {
+    text-align: center;
+  }
+  

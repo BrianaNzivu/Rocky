@@ -4,28 +4,31 @@
         <title>Rocky Group Members</title>
         <style>
             .person-container {
-                width: 300px;
-                background-color: #f2f2f2;
-                padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
             }
 
-            .person-container section {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+            .person-card {
+            background-color: #f2f2f2;
+            padding: 20px;
             }
 
-            .person-container img {
-                width: 150px;
-                height: 150px;
-                object-fit: cover;
-                border-radius: 50%;
-                margin-bottom: 10px;
+            .person-card img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+           
             }
 
             .person-description {
-                text-align: center;
+            text-align: center;
             }
+
+
+            
         </style>
     </head>
     <body>
